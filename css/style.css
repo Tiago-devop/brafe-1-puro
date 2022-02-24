@@ -289,6 +289,21 @@ h2.produtos-mineiro::before {
   padding: 10px 20px;
 }
 
+@media (max-width: 679px) {
+  .locais-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .locais-item > div  {
+    display: flex;
+    flex-direction: column;
+  }
+  .locais-item a {
+    max-width: 139px;
+    align-self: center;
+  }
+}
+
 /* Assine */
 
 .assine {
